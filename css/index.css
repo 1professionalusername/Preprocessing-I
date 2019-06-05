@@ -1,1 +1,211 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+.mainContainer {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 62.5%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  justify-content: space-evenly;
+  color: black;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+}
+.top {
+  background-color: #e6e6e6;
+}
+.top .top_image {
+  display: flex;
+  justify-content: center;
+}
+.top .top_image img {
+  height: 500px;
+}
+.top_text h1 {
+  font-size: 3rem;
+  color: black;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.top_text p {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.listen {
+  display: flex;
+}
+.listen .up {
+  max-width: 50%;
+  height: 100%;
+}
+.listen h3 {
+  font-size: 3rem;
+}
+.listen p {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.listen h4 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigTable {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 2rem;
+}
+.bigTable .role {
+  display: flex;
+  border: 1px solid black;
+}
